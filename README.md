@@ -13,3 +13,6 @@ Collected 500 per day posts over the course of Nov. 3-5 from the Politics subred
 Self explanatory, just made sure that every post had a title and the proper datetime format, where input is a json with one dictionary per line.
 ## compute_title_length.py
 Again, this is just a short code bit to compute average post title length (measured as # of characters/post text).
+## extract_to_tsv.py
+A script that accepts one of the files collected from Reddit and outputs a random
+selection of posts from that file to a tsv (tab separated value) file in te format `extract_to_tsv.py -o <out_file> <json_file> <num_posts_to_output>`
